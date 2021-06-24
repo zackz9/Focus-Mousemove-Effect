@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+}
+section {
+  /* background: url("./img1.jpg"); */
+  background: rgba(1, 82, 18, 0.726);
+  background-attachment: fixed;
+  background-size: cover;
+  cursor: none;
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  cursor: none;
+}
+#cursor {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url("./img4.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
